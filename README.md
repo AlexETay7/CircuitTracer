@@ -1,5 +1,6 @@
 ****************
 * Project CircuitTracer
+* Class project
 * 12/4/2023
 * Alex Taylor
 **************** 
