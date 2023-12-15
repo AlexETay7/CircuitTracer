@@ -97,7 +97,7 @@ public class CircuitBoard {
 	
 		// CHECKING FOR # OF 1'S AND 2's //
 		if (numOnes != 1 || numTwos != 1) {
-			throw new InvalidFileFormatException("This file contains excess path characters.");
+			throw new InvalidFileFormatException("This file contains excess 1's and 2's.");
 		}
 
 		// CHECKING FOR VALID # OF ROWS //
