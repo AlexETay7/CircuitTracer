@@ -92,7 +92,7 @@ public class CircuitBoard {
 				}
 			}
 			} catch (NoSuchElementException e) {
-			throw new InvalidFileFormatException("This file has an unused space.");
+			throw new InvalidFileFormatException("This file has an empty space in comparison to the dimensions of the board.");
 		}
 	
 		// CHECKING FOR # OF 1'S AND 2's //
