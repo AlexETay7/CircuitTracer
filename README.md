@@ -91,15 +91,18 @@
  $ javac *.java
 
  Run the compiled CircuitTracerTester class with the command:
+ 
  $ java CircuitTracerTester.java
 
  Console output will give the results of the tester after the program finishes.
 
  To run a single file, compile CircuitTracer.java (and all dependencies) 
  with the command:
+ 
  $ javac *.java
 
  Run the compiled CircuitTracer class with the command:
+ 
  $ java CircuitTracer.java -(s or q) -(c or g) your_file
  
  Please note that the above command takes 3 command line arguments. The first
@@ -108,9 +111,11 @@
 
  For example, testing a file called "file1.dat" with a stack, through the console,
  would look like this:
+ 
  $ java CircuitTracer.java -s -c file1.dat
 
  Using a queue, through the GUI, with "file1.dat" looks like this:
+ 
  $ java CircuitTracer.java -q -g file1.dat
 
 
