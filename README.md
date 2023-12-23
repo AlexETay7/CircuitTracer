@@ -87,6 +87,7 @@
 
  From the directory containing all source files, compile the
  driver class (and all dependencies) with the command:
+ 
  $ javac *.java
 
  Run the compiled CircuitTracerTester class with the command:
