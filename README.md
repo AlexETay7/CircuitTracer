@@ -87,23 +87,29 @@
 
  From the directory containing all source files, compile the
  driver class (and all dependencies) with the command:
- 
- $ javac *.java
+ <pre>
+  $ javac *.java
+ </pre>
 
  Run the compiled CircuitTracerTester class with the command:
+ <pre>
+  $ java CircuitTracerTester.java
+ </pre>
  
- $ java CircuitTracerTester.java
 
  Console output will give the results of the tester after the program finishes.
 
  To run a single file, compile CircuitTracer.java (and all dependencies) 
  with the command:
+ <pre>
+  $ javac *.java
+ </pre>
  
- $ javac *.java
-
  Run the compiled CircuitTracer class with the command:
  
- $ java CircuitTracer.java -(s or q) -(c or g) your_file
+ <pre>
+  $ java CircuitTracer.java -(s or q) -(c or g) your_file
+ </pre>
  
  Please note that the above command takes 3 command line arguments. The first
  being whether to use a stack or queue, the second being whether to run in the console
