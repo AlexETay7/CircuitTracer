@@ -117,12 +117,15 @@
 
  For example, testing a file called "file1.dat" with a stack, through the console,
  would look like this:
- 
- $ java CircuitTracer.java -s -c file1.dat
 
- Using a queue, through the GUI, with "file1.dat" looks like this:
+ <pre>
+  $ java CircuitTracer.java -s -c file1.dat
+ </pre>
  
- $ java CircuitTracer.java -q -g file1.dat
+ Using a queue, through the GUI, with "file1.dat" looks like this:
+ <pre>
+  $ java CircuitTracer.java -q -g file1.dat
+ </pre>
 
 
 ### ***PROGRAM DESIGN AND IMPORTANT CONCEPTS:***
