@@ -90,7 +90,6 @@
  <pre>
   $ javac *.java
  </pre>
-
  Run the compiled CircuitTracerTester class with the command:
  <pre>
   $ java CircuitTracerTester.java
